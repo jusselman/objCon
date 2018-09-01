@@ -1,0 +1,14 @@
+#time {
+  margin: 250px auto;
+}
+
+button {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+}
+
+h1, form {
+  text-align: center;
+}

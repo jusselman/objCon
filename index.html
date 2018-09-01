@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects and Events</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+  <body onload="showDate()" id="body">
+
+    <div class="container">
+      <button onclick="changeText()" id="heading">Click It</button>
+    </div>
+
+    <div class="container2">
+
+      <button onmouseout="clearDate()" onmouseover="showDate()" id="fecha">Show Date</button>
+      <h1 id='time'></h1>
+    </div>
+
+    <form method="post" action="something.php" name="myForm" onsubmit="return validateForm()">
+      <div>
+        <label>First Name</label>
+        <input type="text" name="firstName" id="firstName" />
+      </div>
+      <br />
+      <div>
+        <label>Last Name</label>
+        <input type="text" name="firstName" id="firstName" />
+      </div>
+      <br />
+      <div>
+        <label>Background</label>
+        <select name="background" id="background" onchange="changeBg(this)">
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+      </div>
+      <br />
+      <input type='submit' value="Submit" />
+    </form>
+  </div>
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
